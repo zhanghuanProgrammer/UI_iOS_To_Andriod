@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0438C206284CED4000CE8B80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C205284CED4000CE8B80 /* AppDelegate.m */; };
+		0438C209284CED4000CE8B80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C208284CED4000CE8B80 /* ViewController.m */; };
+		0438C20B284CED4200CE8B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0438C20A284CED4200CE8B80 /* Assets.xcassets */; };
+		0438C20E284CED4200CE8B80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0438C20C284CED4200CE8B80 /* Main.storyboard */; };
+		0438C210284CED4200CE8B80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C20F284CED4200CE8B80 /* main.m */; };
+		0438C21B284CED4300CE8B80 /* iOSUI_To_AndriodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C21A284CED4300CE8B80 /* iOSUI_To_AndriodUITests.m */; };
+		0438C225284CED4300CE8B80 /* iOSUI_To_AndriodUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C224284CED4300CE8B80 /* iOSUI_To_AndriodUIUITests.m */; };
+		0438C227284CED4300CE8B80 /* iOSUI_To_AndriodUIUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C226284CED4300CE8B80 /* iOSUI_To_AndriodUIUITestsLaunchTests.m */; };
+		0438C242284CED8900CE8B80 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C235284CED8900CE8B80 /* MBProgressHUD.m */; };
+		0438C243284CED8900CE8B80 /* XMDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C236284CED8900CE8B80 /* XMDragView.m */; };
+		0438C244284CED8900CE8B80 /* ZHNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C238284CED8900CE8B80 /* ZHNSString.m */; };
+		0438C245284CED8900CE8B80 /* NSDictionary+QW.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C239284CED8900CE8B80 /* NSDictionary+QW.m */; };
+		0438C247284CED8900CE8B80 /* XMFileItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C23D284CED8900CE8B80 /* XMFileItem.m */; };
+		0438C248284CED8900CE8B80 /* ZHFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C240284CED8900CE8B80 /* ZHFileManager.m */; };
+		0438C24C284CEEFB00CE8B80 /* ZHStroyBoardToAndriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C24B284CEEFB00CE8B80 /* ZHStroyBoardToAndriod.m */; };
+		0438C252284CEF3B00CE8B80 /* ZHStroyBoardToAndriodTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C250284CEF3B00CE8B80 /* ZHStroyBoardToAndriodTool.m */; };
+		0438C255284CEF6C00CE8B80 /* ViewProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C253284CEF6C00CE8B80 /* ViewProperty.m */; };
+		0438C258284CEF9C00CE8B80 /* ZHStoryboardTextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C256284CEF9C00CE8B80 /* ZHStoryboardTextManager.m */; };
+		0438C25B284CEFB200CE8B80 /* ZHStroyBoardFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C259284CEFB200CE8B80 /* ZHStroyBoardFileManager.m */; };
+		0438C269284CF09100CE8B80 /* propertyNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C263284CF09000CE8B80 /* propertyNode.m */; };
+		0438C26A284CF09100CE8B80 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C265284CF09100CE8B80 /* TreeNode.m */; };
+		0438C26B284CF09100CE8B80 /* ReadXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C267284CF09100CE8B80 /* ReadXML.m */; };
+		0438C26E284CF0C700CE8B80 /* ZHStoryboardXMLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C26C284CF0C600CE8B80 /* ZHStoryboardXMLManager.m */; };
+		0438C271284CF10000CE8B80 /* ZHStoryboardPropertyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C26F284CF10000CE8B80 /* ZHStoryboardPropertyManager.m */; };
+		0438C27A284CF84100CE8B80 /* ZHRepearDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C276284CF84100CE8B80 /* ZHRepearDictionary.m */; };
+		0438C27D284CF8FE00CE8B80 /* ZHJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C27C284CF8FE00CE8B80 /* ZHJson.m */; };
+		0438C280284CF93400CE8B80 /* NSArray+ZH.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C27F284CF93400CE8B80 /* NSArray+ZH.m */; };
+		0438C283284CF9B600CE8B80 /* NSDictionary+ZH.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C281284CF9B600CE8B80 /* NSDictionary+ZH.m */; };
+		0438C286284CFAB700CE8B80 /* ZHXibToAndriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C284284CFAB600CE8B80 /* ZHXibToAndriod.m */; };
+		0438C289284CFACE00CE8B80 /* ZHXibToSB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438C288284CFACD00CE8B80 /* ZHXibToSB.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0438C217284CED4300CE8B80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0438C1F9284CED3F00CE8B80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0438C200284CED4000CE8B80;
+			remoteInfo = iOSUI_To_AndriodUI;
+		};
+		0438C221284CED4300CE8B80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0438C1F9284CED3F00CE8B80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0438C200284CED4000CE8B80;
+			remoteInfo = iOSUI_To_AndriodUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0438C201284CED4000CE8B80 /* iOSUI_To_AndriodUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSUI_To_AndriodUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0438C204284CED4000CE8B80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0438C205284CED4000CE8B80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0438C207284CED4000CE8B80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0438C208284CED4000CE8B80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0438C20A284CED4200CE8B80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0438C20D284CED4200CE8B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0438C20F284CED4200CE8B80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0438C211284CED4200CE8B80 /* iOSUI_To_AndriodUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOSUI_To_AndriodUI.entitlements; sourceTree = "<group>"; };
+		0438C216284CED4300CE8B80 /* iOSUI_To_AndriodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSUI_To_AndriodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0438C21A284CED4300CE8B80 /* iOSUI_To_AndriodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSUI_To_AndriodUITests.m; sourceTree = "<group>"; };
+		0438C220284CED4300CE8B80 /* iOSUI_To_AndriodUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSUI_To_AndriodUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0438C224284CED4300CE8B80 /* iOSUI_To_AndriodUIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSUI_To_AndriodUIUITests.m; sourceTree = "<group>"; };
+		0438C226284CED4300CE8B80 /* iOSUI_To_AndriodUIUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSUI_To_AndriodUIUITestsLaunchTests.m; sourceTree = "<group>"; };
+		0438C234284CED8900CE8B80 /* XMFileItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMFileItem.h; sourceTree = "<group>"; };
+		0438C235284CED8900CE8B80 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		0438C236284CED8900CE8B80 /* XMDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMDragView.m; sourceTree = "<group>"; };
+		0438C237284CED8900CE8B80 /* ZHFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHFileManager.h; sourceTree = "<group>"; };
+		0438C238284CED8900CE8B80 /* ZHNSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHNSString.m; sourceTree = "<group>"; };
+		0438C239284CED8900CE8B80 /* NSDictionary+QW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QW.m"; sourceTree = "<group>"; };
+		0438C23B284CED8900CE8B80 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		0438C23C284CED8900CE8B80 /* XMDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMDragView.h; sourceTree = "<group>"; };
+		0438C23D284CED8900CE8B80 /* XMFileItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMFileItem.m; sourceTree = "<group>"; };
+		0438C23E284CED8900CE8B80 /* NSDictionary+QW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QW.h"; sourceTree = "<group>"; };
+		0438C23F284CED8900CE8B80 /* ZHNSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHNSString.h; sourceTree = "<group>"; };
+		0438C240284CED8900CE8B80 /* ZHFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHFileManager.m; sourceTree = "<group>"; };
+		0438C24A284CEEFA00CE8B80 /* ZHStroyBoardToAndriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStroyBoardToAndriod.h; sourceTree = "<group>"; };
+		0438C24B284CEEFB00CE8B80 /* ZHStroyBoardToAndriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStroyBoardToAndriod.m; sourceTree = "<group>"; };
+		0438C250284CEF3B00CE8B80 /* ZHStroyBoardToAndriodTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStroyBoardToAndriodTool.m; sourceTree = "<group>"; };
+		0438C251284CEF3B00CE8B80 /* ZHStroyBoardToAndriodTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStroyBoardToAndriodTool.h; sourceTree = "<group>"; };
+		0438C253284CEF6C00CE8B80 /* ViewProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewProperty.m; sourceTree = "<group>"; };
+		0438C254284CEF6C00CE8B80 /* ViewProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewProperty.h; sourceTree = "<group>"; };
+		0438C256284CEF9C00CE8B80 /* ZHStoryboardTextManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStoryboardTextManager.m; sourceTree = "<group>"; };
+		0438C257284CEF9C00CE8B80 /* ZHStoryboardTextManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStoryboardTextManager.h; sourceTree = "<group>"; };
+		0438C259284CEFB200CE8B80 /* ZHStroyBoardFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStroyBoardFileManager.m; sourceTree = "<group>"; };
+		0438C25A284CEFB200CE8B80 /* ZHStroyBoardFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStroyBoardFileManager.h; sourceTree = "<group>"; };
+		0438C263284CF09000CE8B80 /* propertyNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = propertyNode.m; sourceTree = "<group>"; };
+		0438C264284CF09100CE8B80 /* TreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+		0438C265284CF09100CE8B80 /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
+		0438C266284CF09100CE8B80 /* ReadXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadXML.h; sourceTree = "<group>"; };
+		0438C267284CF09100CE8B80 /* ReadXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadXML.m; sourceTree = "<group>"; };
+		0438C268284CF09100CE8B80 /* propertyNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = propertyNode.h; sourceTree = "<group>"; };
+		0438C26C284CF0C600CE8B80 /* ZHStoryboardXMLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStoryboardXMLManager.m; sourceTree = "<group>"; };
+		0438C26D284CF0C700CE8B80 /* ZHStoryboardXMLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStoryboardXMLManager.h; sourceTree = "<group>"; };
+		0438C26F284CF10000CE8B80 /* ZHStoryboardPropertyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStoryboardPropertyManager.m; sourceTree = "<group>"; };
+		0438C270284CF10000CE8B80 /* ZHStoryboardPropertyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStoryboardPropertyManager.h; sourceTree = "<group>"; };
+		0438C276284CF84100CE8B80 /* ZHRepearDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRepearDictionary.m; sourceTree = "<group>"; };
+		0438C277284CF84100CE8B80 /* ZHRepearDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRepearDictionary.h; sourceTree = "<group>"; };
+		0438C27B284CF8FE00CE8B80 /* ZHJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHJson.h; sourceTree = "<group>"; };
+		0438C27C284CF8FE00CE8B80 /* ZHJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHJson.m; sourceTree = "<group>"; };
+		0438C27E284CF93400CE8B80 /* NSArray+ZH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZH.h"; sourceTree = "<group>"; };
+		0438C27F284CF93400CE8B80 /* NSArray+ZH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ZH.m"; sourceTree = "<group>"; };
+		0438C281284CF9B600CE8B80 /* NSDictionary+ZH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZH.m"; sourceTree = "<group>"; };
+		0438C282284CF9B600CE8B80 /* NSDictionary+ZH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZH.h"; sourceTree = "<group>"; };
+		0438C284284CFAB600CE8B80 /* ZHXibToAndriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHXibToAndriod.m; sourceTree = "<group>"; };
+		0438C285284CFAB700CE8B80 /* ZHXibToAndriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHXibToAndriod.h; sourceTree = "<group>"; };
+		0438C287284CFACD00CE8B80 /* ZHXibToSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHXibToSB.h; sourceTree = "<group>"; };
+		0438C288284CFACD00CE8B80 /* ZHXibToSB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHXibToSB.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0438C1FE284CED4000CE8B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0438C213284CED4300CE8B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0438C21D284CED4300CE8B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0438C1F8284CED3F00CE8B80 = {
+			isa = PBXGroup;
+			children = (
+				0438C203284CED4000CE8B80 /* iOSUI_To_AndriodUI */,
+				0438C219284CED4300CE8B80 /* iOSUI_To_AndriodUITests */,
+				0438C223284CED4300CE8B80 /* iOSUI_To_AndriodUIUITests */,
+				0438C202284CED4000CE8B80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0438C202284CED4000CE8B80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0438C201284CED4000CE8B80 /* iOSUI_To_AndriodUI.app */,
+				0438C216284CED4300CE8B80 /* iOSUI_To_AndriodUITests.xctest */,
+				0438C220284CED4300CE8B80 /* iOSUI_To_AndriodUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0438C203284CED4000CE8B80 /* iOSUI_To_AndriodUI */ = {
+			isa = PBXGroup;
+			children = (
+				0438C249284CEEE800CE8B80 /* iOSUIToAndroidUI */,
+				0438C233284CED8800CE8B80 /* Help */,
+				0438C204284CED4000CE8B80 /* AppDelegate.h */,
+				0438C205284CED4000CE8B80 /* AppDelegate.m */,
+				0438C207284CED4000CE8B80 /* ViewController.h */,
+				0438C208284CED4000CE8B80 /* ViewController.m */,
+				0438C20A284CED4200CE8B80 /* Assets.xcassets */,
+				0438C20C284CED4200CE8B80 /* Main.storyboard */,
+				0438C20F284CED4200CE8B80 /* main.m */,
+				0438C211284CED4200CE8B80 /* iOSUI_To_AndriodUI.entitlements */,
+			);
+			path = iOSUI_To_AndriodUI;
+			sourceTree = "<group>";
+		};
+		0438C219284CED4300CE8B80 /* iOSUI_To_AndriodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0438C21A284CED4300CE8B80 /* iOSUI_To_AndriodUITests.m */,
+			);
+			path = iOSUI_To_AndriodUITests;
+			sourceTree = "<group>";
+		};
+		0438C223284CED4300CE8B80 /* iOSUI_To_AndriodUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0438C224284CED4300CE8B80 /* iOSUI_To_AndriodUIUITests.m */,
+				0438C226284CED4300CE8B80 /* iOSUI_To_AndriodUIUITestsLaunchTests.m */,
+			);
+			path = iOSUI_To_AndriodUIUITests;
+			sourceTree = "<group>";
+		};
+		0438C233284CED8800CE8B80 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				0438C282284CF9B600CE8B80 /* NSDictionary+ZH.h */,
+				0438C281284CF9B600CE8B80 /* NSDictionary+ZH.m */,
+				0438C23B284CED8900CE8B80 /* MBProgressHUD.h */,
+				0438C235284CED8900CE8B80 /* MBProgressHUD.m */,
+				0438C23E284CED8900CE8B80 /* NSDictionary+QW.h */,
+				0438C239284CED8900CE8B80 /* NSDictionary+QW.m */,
+				0438C27E284CF93400CE8B80 /* NSArray+ZH.h */,
+				0438C27F284CF93400CE8B80 /* NSArray+ZH.m */,
+				0438C23C284CED8900CE8B80 /* XMDragView.h */,
+				0438C236284CED8900CE8B80 /* XMDragView.m */,
+				0438C234284CED8900CE8B80 /* XMFileItem.h */,
+				0438C23D284CED8900CE8B80 /* XMFileItem.m */,
+				0438C237284CED8900CE8B80 /* ZHFileManager.h */,
+				0438C240284CED8900CE8B80 /* ZHFileManager.m */,
+				0438C23F284CED8900CE8B80 /* ZHNSString.h */,
+				0438C238284CED8900CE8B80 /* ZHNSString.m */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		0438C249284CEEE800CE8B80 /* iOSUIToAndroidUI */ = {
+			isa = PBXGroup;
+			children = (
+				0438C262284CF08900CE8B80 /* xml */,
+				0438C27B284CF8FE00CE8B80 /* ZHJson.h */,
+				0438C27C284CF8FE00CE8B80 /* ZHJson.m */,
+				0438C254284CEF6C00CE8B80 /* ViewProperty.h */,
+				0438C253284CEF6C00CE8B80 /* ViewProperty.m */,
+				0438C277284CF84100CE8B80 /* ZHRepearDictionary.h */,
+				0438C276284CF84100CE8B80 /* ZHRepearDictionary.m */,
+				0438C25A284CEFB200CE8B80 /* ZHStroyBoardFileManager.h */,
+				0438C259284CEFB200CE8B80 /* ZHStroyBoardFileManager.m */,
+				0438C270284CF10000CE8B80 /* ZHStoryboardPropertyManager.h */,
+				0438C26F284CF10000CE8B80 /* ZHStoryboardPropertyManager.m */,
+				0438C257284CEF9C00CE8B80 /* ZHStoryboardTextManager.h */,
+				0438C256284CEF9C00CE8B80 /* ZHStoryboardTextManager.m */,
+				0438C251284CEF3B00CE8B80 /* ZHStroyBoardToAndriodTool.h */,
+				0438C250284CEF3B00CE8B80 /* ZHStroyBoardToAndriodTool.m */,
+				0438C26D284CF0C700CE8B80 /* ZHStoryboardXMLManager.h */,
+				0438C26C284CF0C600CE8B80 /* ZHStoryboardXMLManager.m */,
+				0438C24A284CEEFA00CE8B80 /* ZHStroyBoardToAndriod.h */,
+				0438C24B284CEEFB00CE8B80 /* ZHStroyBoardToAndriod.m */,
+				0438C285284CFAB700CE8B80 /* ZHXibToAndriod.h */,
+				0438C284284CFAB600CE8B80 /* ZHXibToAndriod.m */,
+				0438C287284CFACD00CE8B80 /* ZHXibToSB.h */,
+				0438C288284CFACD00CE8B80 /* ZHXibToSB.m */,
+			);
+			path = iOSUIToAndroidUI;
+			sourceTree = "<group>";
+		};
+		0438C262284CF08900CE8B80 /* xml */ = {
+			isa = PBXGroup;
+			children = (
+				0438C268284CF09100CE8B80 /* propertyNode.h */,
+				0438C263284CF09000CE8B80 /* propertyNode.m */,
+				0438C266284CF09100CE8B80 /* ReadXML.h */,
+				0438C267284CF09100CE8B80 /* ReadXML.m */,
+				0438C264284CF09100CE8B80 /* TreeNode.h */,
+				0438C265284CF09100CE8B80 /* TreeNode.m */,
+			);
+			path = xml;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0438C200284CED4000CE8B80 /* iOSUI_To_AndriodUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0438C22A284CED4300CE8B80 /* Build configuration list for PBXNativeTarget "iOSUI_To_AndriodUI" */;
+			buildPhases = (
+				0438C1FD284CED4000CE8B80 /* Sources */,
+				0438C1FE284CED4000CE8B80 /* Frameworks */,
+				0438C1FF284CED4000CE8B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSUI_To_AndriodUI;
+			productName = iOSUI_To_AndriodUI;
+			productReference = 0438C201284CED4000CE8B80 /* iOSUI_To_AndriodUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0438C215284CED4300CE8B80 /* iOSUI_To_AndriodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0438C22D284CED4300CE8B80 /* Build configuration list for PBXNativeTarget "iOSUI_To_AndriodUITests" */;
+			buildPhases = (
+				0438C212284CED4300CE8B80 /* Sources */,
+				0438C213284CED4300CE8B80 /* Frameworks */,
+				0438C214284CED4300CE8B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0438C218284CED4300CE8B80 /* PBXTargetDependency */,
+			);
+			name = iOSUI_To_AndriodUITests;
+			productName = iOSUI_To_AndriodUITests;
+			productReference = 0438C216284CED4300CE8B80 /* iOSUI_To_AndriodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0438C21F284CED4300CE8B80 /* iOSUI_To_AndriodUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0438C230284CED4300CE8B80 /* Build configuration list for PBXNativeTarget "iOSUI_To_AndriodUIUITests" */;
+			buildPhases = (
+				0438C21C284CED4300CE8B80 /* Sources */,
+				0438C21D284CED4300CE8B80 /* Frameworks */,
+				0438C21E284CED4300CE8B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0438C222284CED4300CE8B80 /* PBXTargetDependency */,
+			);
+			name = iOSUI_To_AndriodUIUITests;
+			productName = iOSUI_To_AndriodUIUITests;
+			productReference = 0438C220284CED4300CE8B80 /* iOSUI_To_AndriodUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0438C1F9284CED3F00CE8B80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					0438C200284CED4000CE8B80 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					0438C215284CED4300CE8B80 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 0438C200284CED4000CE8B80;
+					};
+					0438C21F284CED4300CE8B80 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 0438C200284CED4000CE8B80;
+					};
+				};
+			};
+			buildConfigurationList = 0438C1FC284CED3F00CE8B80 /* Build configuration list for PBXProject "iOSUI_To_AndriodUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0438C1F8284CED3F00CE8B80;
+			productRefGroup = 0438C202284CED4000CE8B80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0438C200284CED4000CE8B80 /* iOSUI_To_AndriodUI */,
+				0438C215284CED4300CE8B80 /* iOSUI_To_AndriodUITests */,
+				0438C21F284CED4300CE8B80 /* iOSUI_To_AndriodUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0438C1FF284CED4000CE8B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0438C20B284CED4200CE8B80 /* Assets.xcassets in Resources */,
+				0438C20E284CED4200CE8B80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0438C214284CED4300CE8B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0438C21E284CED4300CE8B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0438C1FD284CED4000CE8B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0438C258284CEF9C00CE8B80 /* ZHStoryboardTextManager.m in Sources */,
+				0438C209284CED4000CE8B80 /* ViewController.m in Sources */,
+				0438C245284CED8900CE8B80 /* NSDictionary+QW.m in Sources */,
+				0438C280284CF93400CE8B80 /* NSArray+ZH.m in Sources */,
+				0438C243284CED8900CE8B80 /* XMDragView.m in Sources */,
+				0438C26B284CF09100CE8B80 /* ReadXML.m in Sources */,
+				0438C27D284CF8FE00CE8B80 /* ZHJson.m in Sources */,
+				0438C26E284CF0C700CE8B80 /* ZHStoryboardXMLManager.m in Sources */,
+				0438C24C284CEEFB00CE8B80 /* ZHStroyBoardToAndriod.m in Sources */,
+				0438C269284CF09100CE8B80 /* propertyNode.m in Sources */,
+				0438C247284CED8900CE8B80 /* XMFileItem.m in Sources */,
+				0438C286284CFAB700CE8B80 /* ZHXibToAndriod.m in Sources */,
+				0438C27A284CF84100CE8B80 /* ZHRepearDictionary.m in Sources */,
+				0438C210284CED4200CE8B80 /* main.m in Sources */,
+				0438C289284CFACE00CE8B80 /* ZHXibToSB.m in Sources */,
+				0438C248284CED8900CE8B80 /* ZHFileManager.m in Sources */,
+				0438C283284CF9B600CE8B80 /* NSDictionary+ZH.m in Sources */,
+				0438C271284CF10000CE8B80 /* ZHStoryboardPropertyManager.m in Sources */,
+				0438C244284CED8900CE8B80 /* ZHNSString.m in Sources */,
+				0438C25B284CEFB200CE8B80 /* ZHStroyBoardFileManager.m in Sources */,
+				0438C252284CEF3B00CE8B80 /* ZHStroyBoardToAndriodTool.m in Sources */,
+				0438C26A284CF09100CE8B80 /* TreeNode.m in Sources */,
+				0438C255284CEF6C00CE8B80 /* ViewProperty.m in Sources */,
+				0438C206284CED4000CE8B80 /* AppDelegate.m in Sources */,
+				0438C242284CED8900CE8B80 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0438C212284CED4300CE8B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0438C21B284CED4300CE8B80 /* iOSUI_To_AndriodUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0438C21C284CED4300CE8B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0438C225284CED4300CE8B80 /* iOSUI_To_AndriodUIUITests.m in Sources */,
+				0438C227284CED4300CE8B80 /* iOSUI_To_AndriodUIUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0438C218284CED4300CE8B80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0438C200284CED4000CE8B80 /* iOSUI_To_AndriodUI */;
+			targetProxy = 0438C217284CED4300CE8B80 /* PBXContainerItemProxy */;
+		};
+		0438C222284CED4300CE8B80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0438C200284CED4000CE8B80 /* iOSUI_To_AndriodUI */;
+			targetProxy = 0438C221284CED4300CE8B80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0438C20C284CED4200CE8B80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0438C20D284CED4200CE8B80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0438C228284CED4300CE8B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0438C229284CED4300CE8B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0438C22B284CED4300CE8B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iOSUI_To_AndriodUI/iOSUI_To_AndriodUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SNKPQQYLUN;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tools.jeepai.com.iOSUI-To-AndriodUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		0438C22C284CED4300CE8B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iOSUI_To_AndriodUI/iOSUI_To_AndriodUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SNKPQQYLUN;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tools.jeepai.com.iOSUI-To-AndriodUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		0438C22E284CED4300CE8B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SNKPQQYLUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tools.jeepai.com.iOSUI-To-AndriodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSUI_To_AndriodUI.app/Contents/MacOS/iOSUI_To_AndriodUI";
+			};
+			name = Debug;
+		};
+		0438C22F284CED4300CE8B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SNKPQQYLUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tools.jeepai.com.iOSUI-To-AndriodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSUI_To_AndriodUI.app/Contents/MacOS/iOSUI_To_AndriodUI";
+			};
+			name = Release;
+		};
+		0438C231284CED4300CE8B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SNKPQQYLUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tools.jeepai.com.iOSUI-To-AndriodUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = iOSUI_To_AndriodUI;
+			};
+			name = Debug;
+		};
+		0438C232284CED4300CE8B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SNKPQQYLUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tools.jeepai.com.iOSUI-To-AndriodUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = iOSUI_To_AndriodUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0438C1FC284CED3F00CE8B80 /* Build configuration list for PBXProject "iOSUI_To_AndriodUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0438C228284CED4300CE8B80 /* Debug */,
+				0438C229284CED4300CE8B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0438C22A284CED4300CE8B80 /* Build configuration list for PBXNativeTarget "iOSUI_To_AndriodUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0438C22B284CED4300CE8B80 /* Debug */,
+				0438C22C284CED4300CE8B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0438C22D284CED4300CE8B80 /* Build configuration list for PBXNativeTarget "iOSUI_To_AndriodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0438C22E284CED4300CE8B80 /* Debug */,
+				0438C22F284CED4300CE8B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0438C230284CED4300CE8B80 /* Build configuration list for PBXNativeTarget "iOSUI_To_AndriodUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0438C231284CED4300CE8B80 /* Debug */,
+				0438C232284CED4300CE8B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0438C1F9284CED3F00CE8B80 /* Project object */;
+}
